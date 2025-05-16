@@ -1,6 +1,6 @@
 services:
   openai_forward:
-    image: openaiforward:latest
+    build: .
     container_name: openai-forward-container
     env_file:
       .env
